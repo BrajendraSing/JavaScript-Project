@@ -1,0 +1,42 @@
+[
+    {
+        "question" : "CPU stands for",
+        "option1" : "Central Processing Unit",
+        "option2" : "Core Processing Unit",
+        "option3" : "Computer Processing Unit",
+        "option4" : "Common Processor Uniformer",
+        "correct" : "Central Processing Unit"
+    }, 
+    {
+        "question" : "RAM stands for",
+        "option1" : "Read Auxilary Memory",
+        "option2" : "Random Access Memory",
+        "option3" : "Random Auxilary Memory",
+        "option4" : "Read Access Memory",
+        "correct" : "Random Access Memory"
+    },
+     {
+        "question" : "ROM stands for",
+        "option1" : "Random Only Memory",
+        "option2" : "Read Optional Memory",
+        "option3" : "Read Only Memory",
+        "option4" : "Random Operational Memory",
+        "correct" : "Read Only Memory"
+    },
+     {
+        "question" : "HDD stands for",
+        "option1" : "Hard Drive",
+        "option2" : "Hard Directory",
+        "option3" : "Heap Directory",
+        "option4" : "Hard Disc",
+        "correct" : "Hard Disc"
+    },
+     {
+        "question" : "SSD stands for",
+        "option1" : "System Solid Drive",
+        "option2" : "Solid State Drive",
+        "option3" : "Solid System Drive",
+        "option4" : "State Solid Drive",
+        "correct" : "Solid State Drive"
+    }
+]

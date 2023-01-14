@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+}
+
+.image-container{
+    width: 500px;
+    height: auto;
+    margin: 50px 30px 0 0;
+    display: block;
+}
+
+.image-container img{
+    padding: 5px;
+    width: inherit;
+    height: auto;
+}
+
+h1,p{
+    color: #ffffff;
+    margin: 20px 0 0 0;
+
+}
+
+button{
+    margin: 20px 0 0 0;
+    background-color:darkorange;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}

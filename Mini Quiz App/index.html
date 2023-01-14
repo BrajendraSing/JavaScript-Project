@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Quiz App</title>
+</head>
+<body>
+    
+<navbar>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#">Add</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</navbar>
+
+<div class="quiz-container">
+    <h2 class="quiz-question">Question</h2>
+    <ul class="quiz-options">
+        <li class="quiz-option">
+            <input type="radio" name="option" id="option1">
+            <span id="option1-text">Option 1</span>
+        </li>
+        <li class="quiz-option">
+            <input type="radio" name="option" id="option2">
+            <span id="option2-text">Option 2</span>
+        </li>
+        <li class="quiz-option">
+            <input type="radio" name="option" id="option3">
+            <span id="option3-text">Option 3</span>
+        </li>
+        <li class="quiz-option">
+            <input type="radio" name="option" id="option4">
+            <span id="option4-text">Option 4</span>
+        </li>
+    </ul>
+    <div class="quiz-result">Result</div>
+    <button class="quiz-button" id="quiz-submit">Submit</button>
+    <button class="quiz-button" id="quiz-next">Next</button>
+
+    <p class="quiz-warning">
+        select option and submit to check answer
+        <p id="answer"></p>
+    </p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

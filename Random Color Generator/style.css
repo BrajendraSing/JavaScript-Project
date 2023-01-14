@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+}
+
+.inner-text{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    color: white;
+}
